@@ -1,4 +1,4 @@
-package com.example.iuriranzatti.aplicativoreceita;
+package com.example.thiagosimon.aplicativoreceita;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
     }
+
 
     @Override
     public void onBackPressed() {
